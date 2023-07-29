@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>weather app</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/menu-icon.svg" type="image/svg" />
+  </head>
+  <body>
+   
+   {{> navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left -->
+            <div class="col-md-6 col-12 main_header_right align-items-center">
+                <figure>
+                  <img src="images/person-3.png" alt="img" class="img-fluid" title="img">
+                </figure>
+              </div>
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Welcome to weather app</p>
+              <h1>I am a <span class="text_clr">MERN stack developer</span> web developer
+              </h1>
+              <a href="https://adib-khan.netlify.app/" target="_blank"><button>About me</button></a>
+            </div>
+            <!-- right -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    
+    {{> footer}}
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
